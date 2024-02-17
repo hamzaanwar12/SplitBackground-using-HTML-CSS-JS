@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 98%;
+    height: 95vh;
+}
+
+.side {
+    width: 50%;
+    height: 105%;
+    transition: width 1.5s ;
+}
+.sideActive{
+    width: 75%;
+}
+
+#side1 {
+    background: url("playstore.png");
+    background-size: cover;
+    background-repeat: no-repeats;
+    font-family: 'Bebas Neue', cursive;
+    color: darkseagreen;
+}
+
+#side2 {
+    background: url("xbox.png");
+    background-size: cover;
+    background-repeat: no-repeats;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.innerdiv {
+    width: 50%;
+    margin: auto;
+    margin-top: 20rem;
+    text-align: center;
+}
+
+.innerdiv h1{
+    font-size: 3.5rem;
+}
+
+button{
+    height: 4.25rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #00000000;
+}
+button:hover{
+    width: 10.2rem;
+    height: 4.5rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: 900;
+}
+
+#side1 button{
+    border: 2px solid darkseagreen;
+    color: darkseagreen;
+}
+#side1 button:hover{
+    background-color: darkseagreen;
+    color: white;
+    box-shadow: 3px 2px darkgray;
+}
+#side2 button{
+    border: 2px solid white;
+    color: white;
+}
+#side2 button:hover{
+    background-color: black;
+    color: darkgreen;
+    box-shadow: 3px 2px white;
+}
